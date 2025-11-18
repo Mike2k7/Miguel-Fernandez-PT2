@@ -1,5 +1,5 @@
 ### Configuracion del sistema de virtualitzacion (IsardVDI) ###
-,,,
+---
 Instal·la Apache
 
 sudo apt install apache2 -y
