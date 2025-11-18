@@ -1,1 +1,28 @@
+### Configuracion del sistema de virtualitzacion (IsardVDI) ###
+,,,
+Instal·la MySQL
 
+Ubuntu 24.04 ja inclou el paquet mysql-server als repositoris oficials (versió 8.0 o superior):
+
+sudo apt install mysql-server mysql-client -y
+
+Inicia i habilita el servei:
+
+sudo systemctl enable mysql
+sudo systemctl start mysql
+
+Configura de MySQL:
+Accés a la consola de MySQL
+
+sudo mysql
+
+Creació de la base de dades
+
+CREATE DATABASE bbdd;
+
+Creació de l’usuari local
+
+CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+GRANT ALL PRIVILEGES ON bbdd.* TO 'usuario'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
