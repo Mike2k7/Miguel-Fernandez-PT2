@@ -1,5 +1,19 @@
 ### Configuracion del sistema de virtualitzacion (IsardVDI) ###
 ,,,
+Instal·la Apache
+
+sudo apt install apache2 -y
+
+Activa i inicia el servei:
+
+sudo systemctl enable apache2
+sudo systemctl start apache2
+
+Verifica l’estat:
+
+sudo systemctl status apache2
+
+
 Instal·la MySQL
 
 Ubuntu 24.04 ja inclou el paquet mysql-server als repositoris oficials (versió 8.0 o superior):
