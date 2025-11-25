@@ -1,13 +1,17 @@
 ### Demostració del funcionament
 
+---
 
 ### Creació d'usuaris 
 
+---
 
 ### Asignació de rols i permissos 
 
+---
 
 ### Administració d'arxius
 
+---
 
 ### Accés des d’una màquina qualsevol de la xarxa 
