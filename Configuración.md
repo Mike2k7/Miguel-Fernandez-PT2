@@ -1,5 +1,7 @@
 ### Demostració del funcionament
 
+
+
 ---
 
 ### Creació d'usuaris 
@@ -10,9 +12,13 @@
 
 ### Asignació de rols i permissos 
 
+
+
 ---
 
 ### Administració d'arxius
+
+
 
 ---
 
